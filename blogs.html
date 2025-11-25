@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.adobe.com; font-src 'self' https://fonts.gstatic.com https://fonts.adobe.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://www.google-analytics.com https://connect.facebook.net;">
+    <title>Blogs - NutriCare Health & Wellness | Health Tips & Wellness Insights</title>
+    <meta name="description" content="Discover health tips, wellness insights, and skincare advice from NutriCare's expert blog. Your guide to healthy living and glowing skin.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basis+Grotesque+Pro:wght@300;400;500;600;700&family=Worry+Free:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="health blog, wellness tips, health advice, nutrition blog, skincare insights, wellness routine, supplements guide">
+    <meta name="author" content="NutriCare Health & Wellness">
+    <meta property="og:title" content="Blogs - NutriCare Health & Wellness | Health Tips & Wellness Insights">
+    <meta property="og:description" content="Discover health tips, wellness insights, and skincare advice from NutriCare's expert blog.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://avenda.com/blogs">
+    <meta property="og:image" content="https://avenda.com/images/blogs-hero.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Blogs - NutriCare Health & Wellness",
+        "description": "Discover health tips, wellness insights, and skincare advice.",
+        "url": "https://nutricare.com/blogs",
+        "mainEntity": {
+            "@type": "Blog",
+            "name": "NutriCare Health & Wellness Blog",
+            "description": "Expert health, wellness, and skincare advice"
+        }
+    }
+    </script>
+</head>
+<body class="blogs-page">
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Center Logo -->
+            <div class="nav-center">
+                <a href="index.html" class="logo">NUTRICARE</a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-left">
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="bundles.html" class="nav-link">Bundles</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+            </div>
+
+            <!-- Right Navigation -->
+            <div class="nav-right">
+                <button class="search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="shop.html" class="mobile-nav-link">Shop</a>
+                <a href="bundles.html" class="mobile-nav-link">Bundles</a>
+                <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Blog Listing Section -->
+    <section class="product-listing-section">
+        <div class="product-listing-container">
+            <div class="section-header">
+                <p class="section-subtitle">LATEST INSIGHTS</p>
+                <h2 class="section-title">Health & Wellness Blog</h2>
+            </div>
+            
+            <div class="blog-listing-grid">
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image" style="height: 203px;width: 300px;margin-left: 70px ;">
+                        <img src="product images/neuroenergizer.webp" alt="NeuroEnergizer Review: Can This Sound-Based Program Really Boost Your Brainpower?" onerror="this.style.display='none'">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">NeuroEnergizer Review: Can This Sound-Based Program Really Boost Your Brainpower?</h3>
+                        <p class="blog-listing-excerpt">Complete review of NeuroEnergizer binaural beats program. Discover if this sound-based tool can improve focus, reduce stress, and boost creativity in just 6 minutes a day.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='neuroenergizer-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/main-product-img.png" alt="Promote ProDentim — Earn with the ProDentim Affiliate Program" onerror="this.style.display='none'">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">Promote ProDentim — Earn with the ProDentim Affiliate Program</h3>
+                        <p class="blog-listing-excerpt">Complete review of ProDentim oral health probiotic supplement with 3.5 billion probiotics for teeth and gum health. Discover if this probiotic candy is right for you.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='prodentim-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/mitolyn.avif" alt="Unlocking the Power of Your Metabolism with Mitolyn" onerror="this.style.display='none'">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">Unlocking the Power of Your Metabolism with Mitolyn</h3>
+                        <p class="blog-listing-excerpt">Complete review of Mitolyn's metabolism-boosting formula with 6 exotic nutrients for healthy weight management. Discover if this supplement is right for you.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='mitolyn-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/totallybangin.png" alt="Totally Bangin Self Tanner: The Anti-Aging Self Tanner for 40+ Women" onerror="this.style.display='none'" style="height: 170px;width: 230px;margin-left: -20px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">Totally Bangin Self Tanner: The Anti-Aging Self Tanner for 40+ Women</h3>
+                        <p class="blog-listing-excerpt">Complete review of Totally Bangin self-tanner for mature skin. Discover how this natural self-tanner helps hide cellulite, varicose veins, and uneven skin tone.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='totallybangin-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/foliprime.png" alt="FoliPrime: Natural Hair Support Serum or Just Another Product?" onerror="this.style.display='none'" style="height: 170px;width: 120px;margin-left: 0px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">FoliPrime: Natural Hair Support Serum or Just Another Product?</h3>
+                        <p class="blog-listing-excerpt">Complete review of FoliPrime natural hair support serum with Egyptian balm formula. Discover if this hair follicle detox solution can help with hair health and growth.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='foliprime-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/truvarin.png" alt="TruVarin Hair Growth Formula: A Complete Review" onerror="this.style.display='none'" style="height: 170px;width: 150px;margin-left: 20px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">TruVarin Hair Growth Formula: A Complete Review</h3>
+                        <p class="blog-listing-excerpt">Complete review of TruVarin hair growth formula with natural hemp-based ingredients. Discover if this PurZorb technology formula can help restore hair growth naturally.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='truvarin-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/Metanail.png" alt="Reviving Nails & Feet: A Deep Dive into Metanail Complex" onerror="this.style.display='none'" style="height: 170px;width: 150px;margin-left: 10px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">Reviving Nails & Feet: A Deep Dive into Metanail Complex</h3>
+                        <p class="blog-listing-excerpt">Complete review of Metanail Complex nail and feet serum. Discover if this natural formula can strengthen brittle nails and improve foot health with plant-based ingredients.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='metanail-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/hydroessential.png" alt="How Hydrossential Promises Flawless, Youthful Skin" onerror="this.style.display='none'" style="height: 160px;width: 100px;margin-left: 20px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">How Hydrossential Promises Flawless, Youthful Skin</h3>
+                        <p class="blog-listing-excerpt">Complete review of Hydrossential skincare serum with plant-based ingredients. Discover if this natural formula can deliver on its promises of flawless, youthful skin.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='hydrossential-review.html'">Read More</button>
+                    </div>
+                </div>
+                
+                <div class="blog-listing-card featured-blog">
+                    <div class="blog-listing-image">
+                        <img src="product images/bottle-label.png" alt="Hear Clearly Again? A Deep Dive into Audifort" onerror="this.style.display='none'" style="height: 170px;width: 150px;margin-left: 0px ;">
+                    </div>
+                    <div class="blog-listing-content">
+                        <h3 class="blog-listing-name">Hear Clearly Again? A Deep Dive into Audifort</h3>
+                        <p class="blog-listing-excerpt">When your ears ring, sounds grow muffled, or you feel like your hearing is slipping — it can be frustrating. Audifort markets itself as a natural way to support hearing clarity and reduce symptoms like tinnitus.</p>
+                        <button class="blog-read-more-btn" onclick="window.location.href='audifort-review.html'">Read More</button>
+                    </div>
+                </div>    
+                
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">NUTRICARE</h2>
+                    <p class="footer-description">Your trusted source for premium health and wellness products. We curate the finest supplements, skincare solutions, and natural remedies to support your journey towards optimal health and vitality.</p>
+                </div>
+                <div class="footer-navigation">
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">NUTRICARE</h3>
+                        <ul class="footer-links">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="bundles.html">Bundles</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">COMPANY</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>© NutriCare, Made by R²</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Affiliate Configuration -->
+    <script src="affiliate-config.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Analytics Scripts (Add your tracking codes here) -->
+    <!-- Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+    
+    <!-- Facebook Pixel -->
+    <!-- <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script> -->
+</body>
+</html>

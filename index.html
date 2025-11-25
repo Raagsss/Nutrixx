@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.adobe.com; font-src 'self' https://fonts.gstatic.com https://fonts.adobe.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://connect.facebook.net;">
+    <title>NutriCare - Health & Wellness Essentials | Premium Supplements & Skincare</title>
+    <meta name="description" content="Discover premium health supplements, medicines, tonics, facewash, serums with NutriCare. Transform your wellness journey with our curated health and skincare products.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basis+Grotesque+Pro:wght@300;400;500;600;700&family=Worry+Free:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="health supplements, medicines, tonics, facewash, serums, wellness, nutrition, skincare, vitamins, health products">
+    <meta name="author" content="NutriCare Health & Wellness">
+    <meta property="og:title" content="NutriCare - Premium Health & Wellness Essentials">
+    <meta property="og:description" content="Discover premium health supplements, medicines, tonics, facewash, serums. Expert recommendations for your wellness journey.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-domain.com">
+    <meta property="og:image" content="https://your-domain.com/hero-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NutriCare - Premium Health & Wellness Essentials">
+    <meta name="twitter:description" content="Discover premium health supplements, medicines, tonics, facewash, serums. Expert recommendations for your wellness journey.">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "NutriCare",
+        "description": "Premium health supplements, medicines, tonics, facewash, serums for your wellness journey",
+        "url": "https://your-domain.com",
+        "logo": "https://your-domain.com/logo.png",
+        "sameAs": [
+            "https://facebook.com/your-page",
+            "https://instagram.com/your-account",
+            "https://twitter.com/your-account"
+        ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Center Logo -->
+            <div class="nav-center">
+                <a href="index.html" class="logo">NUTRICARE</a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-left">
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="bundles.html" class="nav-link">Bundles</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+            </div>
+
+            <!-- Right Navigation -->
+            <div class="nav-right">
+                <button class="search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="shop.html" class="mobile-nav-link">Shop</a>
+                <a href="bundles.html" class="mobile-nav-link">Bundles</a>
+                <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero-section">
+        <div class="hero-image-container">
+            <!-- Centered text -->
+            <div class="hero-content">
+                <p class="hero-subtitle">INTRODUCTION</p>
+                <h2 class="hero-title">
+                    <span class="script-text">The New</span>
+                    <span class="serif-text">Health Essentials</span>
+                </h2>
+                <button class="shop-now-btn">Shop Now</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Product Section -->
+    <section class="product-section">
+        <div class="product-container">
+            <div class="product-header">
+                <div class="product-title">
+                    <p class="season-text">THIS SEASON</p>
+                    <h2 class="essentials-text">Health Essentials</h2>
+                </div>
+                <button class="see-all-btn" onclick="window.location.href='shop.html'">See All</button>
+            </div>
+            
+            <div class="product-grid">
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/mitolyn.avif" alt="Mitolyn Weight Loss Support">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Mitolyn Weight Loss Support</h3>
+                        <p class="product-size">30 CAPSULES / METABOLIC POWER FORMULA</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 79.00 USD</span>
+                            <span class="old-price">$ 99.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://2e2fallerrxn1y1ksr267e2p0s.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/hydroessential.png" alt="Hydrossential Skincare Serum">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Hydrossential Skincare Serum</h3>
+                        <p class="product-size">30ML / FLAWLESS SKIN FORMULA</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 69.00 USD</span>
+                            <span class="old-price">$ 89.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://06683oidwg2n0z21a11d4mhhwd.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/Metanail.png" alt="Metanail Serum Pro">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Metanail Serum Pro</h3>
+                        <p class="product-size">20-IN-1 NAIL & FEET ESSENTIAL FORMULA</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 79.00 USD</span>
+                            <span class="old-price">$ 99.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://a7976qh8mizgbkcfnqlzxmop3y.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/truvarin.png" alt="TruVarin Hair Growth Support">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">TruVarin Hair Growth Support</h3>
+                        <p class="product-size">NATURAL HAIR GROWTH FORMULA WITH VARINS</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 89.00 USD</span>
+                            <span class="old-price">$ 178.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://4daeeeg9sgxicl6iypa-38qy0s.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/foliprime.png" alt="FoliPrime Hair Health Formula">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">FoliPrime Hair Health Formula</h3>
+                        <p class="product-size">NATURAL EGYPTIAN BALM FOR HAIR FOLLICLE DETOX</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 49.00 USD</span>
+                            <span class="old-price">$ 99.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://f2224eo0pr4ger48uaxdz70-ft.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image1">
+                        <img src="product images/totallybangin.png" alt="Totally Bangin Self Tanner">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Totally Bangin Self Tanner</h3>
+                        <p class="product-size">200ML / ANTI-AGING SELF TANNER FOR 40+</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 47.77 USD</span>
+                            <span class="old-price">$ 57.77 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://ae24dco3ueun0obl1kdhrgly6c.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/bottle-label.png" alt="Audifort Hearing Support">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">Audifort Hearing Support</h3>
+                        <p class="product-size">NATURAL HEARING CLARITY FORMULA</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 49.00 USD</span>
+                            <span class="old-price">$ 79.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://2c4b0codheuj6ye8-9x6ph-r1q.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+                
+                <div class="product-card featured-product">
+                    <div class="product-image">
+                        <img src="product images/main-product-img.png" alt="ProDentim Oral Health Probiotic">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">ProDentim Oral Health Probiotic</h3>
+                        <p class="product-size">3.5 BILLION PROBIOTICS FOR TEETH & GUMS</p>
+                        <div class="product-price">
+                            <span class="current-price">$ 49.00 USD</span>
+                            <span class="old-price">$ 99.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://b1b6fpk4sfvg8y4o19taqewffe.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Section -->
+    <section class="explore-section">
+        <div class="explore-container">
+            <div class="explore-left">
+                <div class="explore-image">
+                        <img src="product images/img23.jpg" alt="Health Supplements and Wellness Products">
+                </div>
+            </div>
+            <div class="explore-right">
+                <div class="explore-content">
+                    <p class="explore-subtitle">EXPLORE</p>
+                    <h2 class="explore-title">
+                        <span class="explore-title-normal">The Secret to</span>
+                        <span class="explore-title-italic">Great Health</span>
+                    </h2>
+                    <p class="explore-description">
+                        Transform your wellness journey with our premium health supplements, medicines, tonics, facewash, and serums. Discover the power of proper nutrition, quality skincare, and the right health products to achieve your wellness goals.
+                    </p>
+                    <button class="shop-products-btn">Shop Our Products</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Premier Wellness Section -->
+    <section class="premier-wellness-section">
+        <div class="premier-wellness-container">
+            <div class="premier-wellness-content">
+                <h2 class="premier-title">
+                    <span class="premier-text-small">The Premier</span>
+                    <span class="premier-text-large">Health Collection</span>
+                </h2>
+                <p class="premier-tagline">Transform your wellness journey.</p>
+                <button class="premier-shop-btn">Shop Now</button>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Journal Section -->
+    <section class="journal-section">
+        <div class="journal-container">
+            <div class="journal-header">
+                <div class="journal-title-group">
+                    <p class="journal-subtitle">SELECTED FROM</p>
+                    <h2 class="journal-title">Health Blog</h2>
+                </div>
+                <button class="journal-see-more-btn" onclick="window.location.href='blogs.html'">See More</button>
+            </div>
+            <div class="journal-grid">
+                <article class="journal-card" onclick="window.location.href='mitolyn-review.html'" style="cursor: pointer;">
+                    <div class="journal-image">
+                        <img src="product images/mitolyn.avif" alt="Unlocking the Power of Your Metabolism with Mitolyn" onerror="this.style.display='none'">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">DECEMBER 15, 2024</p>
+                        <h3 class="journal-article-title">Unlocking the Power of Your Metabolism with Mitolyn</h3>
+                    </div>
+                </article>
+                <article class="journal-card" onclick="window.location.href='totallybangin-review.html'" style="cursor: pointer;">
+                    <div class="journal-image">
+                        <img src="product images/totallybangin.png" alt="Totally Bangin Self Tanner: The Anti-Aging Self Tanner for 40+ Women" onerror="this.style.display='none'">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">NOVEMBER 28, 2024</p>
+                        <h3 class="journal-article-title">Totally Bangin Self Tanner: The Anti-Aging Self Tanner for 40+ Women</h3>
+                    </div>
+                </article>
+                <article class="journal-card" onclick="window.location.href='foliprime-review.html'" style="cursor: pointer;">
+                    <div class="journal-image">
+                        <img src="product images/foliprime.png" alt="FoliPrime: Natural Hair Support Serum or Just Another Product?" onerror="this.style.display='none'">
+                    </div>
+                    <div class="journal-content">
+                        <p class="journal-date">OCTOBER 12, 2024</p>
+                        <h3 class="journal-article-title">FoliPrime: Natural Hair Support Serum or Just Another Product?</h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">NUTRICARE</h2>
+                    <p class="footer-description">Your trusted source for premium health and wellness products. We curate the finest supplements, skincare solutions, and natural remedies to support your journey towards optimal health and vitality.</p>
+                </div>
+                <div class="footer-navigation">
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">NUTRICARE</h3>
+                        <ul class="footer-links">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="bundles.html">Bundles</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">COMPANY</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>© NutriCare, Made by R²</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Affiliate Configuration -->
+    <script src="affiliate-config.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Analytics Scripts (Add your tracking codes here) -->
+    <!-- Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+    
+    <!-- Facebook Pixel -->
+    <!-- <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script> -->
+</body>
+</html>

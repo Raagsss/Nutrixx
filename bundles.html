@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://connect.facebook.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.adobe.com; font-src 'self' https://fonts.gstatic.com https://fonts.adobe.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://www.google-analytics.com https://connect.facebook.net;">
+    <title>Bundles - NutriCare Health & Wellness | Curated Health Packages</title>
+    <meta name="description" content="Discover our curated health bundles. Complete wellness packages for every health goal with NutriCare's premium collections.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basis+Grotesque+Pro:wght@300;400;500;600;700&family=Worry+Free:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="health bundles, wellness packages, supplement sets, curated collections, health essentials, skincare bundles">
+    <meta name="author" content="NutriCare Health & Wellness">
+    <meta property="og:title" content="Bundles - NutriCare Health & Wellness | Curated Health Packages">
+    <meta property="og:description" content="Discover our curated health bundles. Complete wellness packages for every health goal with NutriCare's premium collections.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://avenda.com/bundles">
+    <meta property="og:image" content="https://avenda.com/images/bundles-hero.jpg">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Bundles - NutriCare Health & Wellness",
+        "description": "Discover our curated health bundles. Complete wellness packages for every health goal.",
+        "url": "https://nutricare.com/bundles",
+        "mainEntity": {
+            "@type": "CollectionPage",
+            "name": "Health Bundles",
+            "description": "Curated health and wellness bundles"
+        }
+    }
+    </script>
+</head>
+<body class="bundles-page">
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav-container">
+            <!-- Mobile Hamburger Button -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Center Logo -->
+            <div class="nav-center">
+                <a href="index.html" class="logo">NUTRICARE</a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <div class="nav-left">
+                <a href="shop.html" class="nav-link">Shop</a>
+                <a href="bundles.html" class="nav-link">Bundles</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+            </div>
+
+            <!-- Right Navigation -->
+            <div class="nav-right">
+                <button class="search-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div class="mobile-nav" id="mobile-nav">
+                <a href="shop.html" class="mobile-nav-link">Shop</a>
+                <a href="bundles.html" class="mobile-nav-link">Bundles</a>
+                <a href="blogs.html" class="mobile-nav-link">Blogs</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-image-container">
+            <!-- Centered text -->
+            <div class="hero-content1">
+            
+                <h2 class="hero-title">
+                    <span class="script-text">The Solution</span>
+                    <span class="serif-text">for Every Goal</span>
+                </h2>
+                <p class="hero-description">Transform your wellness journey with our curated bundles designed for every health goal and skincare need.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Navigation Section -->
+    <!-- <section class="product-nav-section">
+        <div class="product-nav-container">
+            <div class="product-nav-tabs">
+                <button class="nav-tab active">All Bundles</button>
+                <button class="nav-tab">Health</button>
+                <button class="nav-tab">Skincare</button>
+                <button class="nav-tab">Complete</button>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Product Listing Section -->
+    <section class="product-listing-section">
+        <div class="product-listing-container">
+            <div class="section-header">
+                <p class="section-subtitle">DISCOVER COLLECTIONS</p>
+                <h2 class="section-title">Health Bundles</h2>
+            </div>
+            
+            <div class="product-listing-grid">
+                <div class="product-listing-card">
+                    <div class="product-listing-image">
+                        <img src="product images/neuroenergizer.webp" alt="NeuroEnergizer Digital Audio Program" onerror="this.style.display='none'">
+                    </div>
+                    <div class="product-listing-info">
+                        <h3 class="product-listing-name">NeuroEnergizer Digital Audio Program</h3>
+                        <p class="product-listing-volume">Binaural Beats for Focus, Clarity & Mental Performance</p>
+                        <div class="product-listing-price">
+                            <span class="current-price">$ 39.00 USD</span>
+                            <span class="original-price">$99.00 USD</span>
+                        </div>
+                        <button class="product-buy-btn" onclick="window.open('https://4429abm3jlyhem8hoq-8flmbkc.hop.clickbank.net/?&traffic_source=blog&traffic_type=blog', '_blank')">Order Now</button>
+                        <span class="bestseller-badge">Digital Product</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <h2 class="footer-logo">NUTRICARE</h2>
+                    <p class="footer-description">Your trusted source for premium health and wellness products. We curate the finest supplements, skincare solutions, and natural remedies to support your journey towards optimal health and vitality.</p>
+                </div>
+                <div class="footer-navigation">
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">NUTRICARE</h3>
+                        <ul class="footer-links">
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="bundles.html">Bundles</a></li>
+                            <li><a href="blogs.html">Blogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-column-title">COMPANY</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>© NutriCare, Made by R²</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Affiliate Configuration -->
+    <script src="affiliate-config.js"></script>
+    <script src="script.js"></script>
+    
+    <!-- Analytics Scripts (Add your tracking codes here) -->
+    <!-- Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script> -->
+    
+    <!-- Facebook Pixel -->
+    <!-- <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', 'YOUR_PIXEL_ID');
+        fbq('track', 'PageView');
+    </script> -->
+</body>
+</html>
